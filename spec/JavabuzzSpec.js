@@ -64,6 +64,14 @@ describe('Javabuzz', function() {
       expect(javabuzz.says(5)).toEqual('Buzz');
     });
 
+    it('"JavaBuzz" when a number is divisible by 15', function() {
+      expect(javabuzz.says(15)).toEqual('JavaBuzz');
+    });
+
+    it('original number when number is not divisible by 3, 5, or 15', function() {
+      expect(javabuzz.says(1)).toEqual(1)
+    });
+
   });
 
 });
