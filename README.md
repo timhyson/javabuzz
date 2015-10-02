@@ -1,6 +1,6 @@
 # javabuzz
 
-Version of FizzBuzz written in JavaScript and tested in Jasmine
+Alternative version of FizzBuzz written in JavaScript and tested in Jasmine
 
 - How to install this on your machine
 - Outline your approach
